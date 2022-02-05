@@ -6,36 +6,408 @@ uid: d4b73b6e-93a7-47af-239d-cd1c71dc0a07
 
 This section provides the required readings for the course. [Additional references](#add) are also provided.
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| 1 | Overview of Semiconductor Manufacturing | Boning, Duane S., Jerry Stefani, and Stephanie W. Butler. "Statistical Methods for Semiconductor Manufacturing."  {{< br >}}  {{< br >}}May, Gary S., and Costas J. Spanos. "Introduction to Semiconductor Manufacturing copyright 2002." Chapter 1 in _Fundamentals of Semiconductor Manufacturing and Process Control__._ July 2002, pp. 1-22. ISBN: 0471784060.  {{< br >}}  {{< br >}}Montgomery, D. C. "Inferences about Process Quality." Chapter 3 in _Introduction to Statistical Quality Control__._ 1st ed. New York, NY: Wiley, 1985. ISBN: 0471808709.  {{< br >}}  {{< br >}}Webster, J. G., ed. _Encyclopedia of Electrical Engineering__._ New York, NY: Wiley, 1999. Pp. 463-479. ISBN: 0471139467.  {{< br >}}  {{< br >}}Appendix I-VIII. Various Statistical Tables. Unknown. |
-| {{< td-colspan 4 >}}**Statistical Process Control**{{< /td-colspan >}} ||||
-| 2 | Statistics Review: Distributions | Moore, Gordon E. "The Experts Look Ahead. Cramming more Components onto Integrated Circuits." _Electronics_ 38, no. 8 (April 19, 1965).  {{< br >}}  {{< br >}}Appendix A: Electronic Genie: Patric Haggerty's Forcecast (1964). University of Illinois Press. |
-| 3 | Statistics Review: Estimation | Montgomery. _Introduction to Statistical Quality Control__._ 3rd ed. pp. 113-116. ISBN: 0471303534. |
-| 4 | Hypothesis Tests and Control Chart Introduction | Drain, David. "Variance Components and Process Sampling Design." Chapter 3 in _Statistical Methods for Industrial Process Control._ New York, NY: Chapman and Hall. ISBN: 0412085119. |
-| 5 | Control Charts | &nbsp; |
-| 6 | Advanced Control Charts, Nested Variance | &nbsp; |
-| {{< td-colspan 4 >}}**Experimental Design**{{< /td-colspan >}} ||||
-| 7 | Analysis and Design of Experiments | &nbsp; |
-| 8 | ANOVA, Variance Component Estimation | &nbsp; |
-| 9 | MANOVA, Factorial Experiments | Clark, Thomas E., M. Chang, and Cissy Leung. "Response Surface Modeling of High Pressure Chemical Vapor Deposited Blanket Tungsten." _J Vac Sci Technol_ B 9, no. 3 (May/June 1991). Copyright 1991 American Vacuum Society.  {{< br >}}  {{< br >}}May, Gary S., and Costas J. Spanos. "Yield Modeling." Chapter 5 in _Fundamentals of Semiconductor Manufacturing and Process Control_. January 2002. ISBN: 0471784060.  {{< br >}}  {{< br >}}———. "Statistical Experimental Design." Chapter 7 in _Fundamentals of Semiconductor Manufacturing and Process Control_. May 2002. ISBN: 0471784060.  {{< br >}}  {{< br >}}Notes from C. Spanos, U. C. Berkeley. "Yield". |
-| &nbsp; | Quiz #1 | &nbsp; |
-| {{< td-colspan 4 >}}**Yield and Yield Learning**{{< /td-colspan >}} ||||
-| 10 | Design of Experiments and Response Surface Modeling | Ciplickas, D. J., X. Li, and A. J. Strojwas. "Predictive Yield Modeling of VLSIC's." 5th International Workshop on Statistical Metrology (IWSM). IEEE (June 2000): 28-37. Honolulu, HA.  {{< br >}}  {{< br >}}Hess, Christopher. "Universal Characterization Vehicle (UCV) and Fast Testing Methods." Presentation. PDF Solutions Inc.  {{< br >}}  {{< br >}}Stapper, Charles H., and Raymond J. Rosner. "Integrated Circuit Yield Management and Yield Analysis: Development and Implementation." _IEEE Transactions on Semiconductor Manufacturing_ 8, no. 2 (May 1995). |
-| 11 | RSM and Regression | Davis, J. C., R. S. Gyurcsik, J-C Lu, and J. M. Hughes-Oliver. "A Robust Metric for Measuring Within-Wafer Uniformity." _IEEE Transations on Components, Packaging, and Manufacturing Technology - Part C_ 19, no. 4 (Oct 1996).  {{< br >}}  {{< br >}}Guo, R-S., and E. Sachs. "Modeling, Optimization and Control of Spatial Uniformity in Manufacturing Processes." _IEEE Transactions on Semiconductor Manufacturing_, 6, no. 1 (February 1993).  {{< br >}}  {{< br >}}May, Gary S., and Costas J. Spanos. "Statistical Process Control." Chapter 6 in _Fundamentals of Semiconductor Manufacturing and Process Control__._ December 2001. ISBN: 0471784060.  {{< br >}}  {{< br >}}Mozumder, P. K., and L. M. Loewenstein. "Method for Semiconductor Process Optimization Using Functional Representations of Spatial Variations and Selectivity." _IEEE Transactions on Components, Hybrids, and Manufacturing Technology,_ 15, no. 3 (June 1992). |
-| 12 | Yield Management and Modeling | &nbsp; |
-| 13 | Yield Modeling | &nbsp; |
-| {{< td-colspan 4 >}}**Advanced Process Control**{{< /td-colspan >}} ||||
-| 14 | Spatial Modeling | Spanos, C. J., Guo H-F, A. Miller, and J. Levine-Parrill. "Real-Time Statistical Process Control Using Tool Data." _IEEE Transactions on Semiconductor Manufacturing_ 5, no. 4 (November 1992). |
-| 15 | Sensors and Signals | Sachs, E., A. Hu, and A. Ingolfsson. "Run by Run Process Control: Combining SPC and Feedback Control." _IEEE Transactions on Semiconductor Manufacturing_ 8, no. 1 (February 1995). |
-| 16 | PCA and Time Series | SCRAP? Schaper, C., M. Moslehi, K. Saraswat, and T. Kailath. "Control of MMST RTP: Repeatability, Uniformity, and Integration for Flexible Manufacturing." _IEEE Transactions on Semiconductor Manufacturing_ 7, no. 2 (May 1994).  {{< br >}}  {{< br >}}SCRAP? Knight, T. J., D. W. Greve, X. Cheng, and B. H. Krogh. "Real-Time Multivariable Control of PECVD Silicon Nitride Film Properties." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997). |
-| 17 | Run by Run Control | Gershwin, S. B. "Markoc Chains and Processes." Chapter 2 in _Manufacturing Systems Engineering_. Upper Saddle River, NJ: Prentice-Hall, 1993. ISBN: 013560608X.  {{< br >}}  {{< br >}}Wein, L. M. "Scheduling Semiconductor Wafer Fabrication." _IEEE Transactions on Semiconductor Manufacturing_ 1, no. 3 (August 1988). |
-| 18 | Real Time Control, Scheduling | Cunningham, S. P., and J. G. Shanthikumar. "Empirical Results on the Relationship Between Die Yield and Cycle Time in Semiconductor Wafer Fabrication." _IEEE Transactions on Semiconductor Manufacturing_ 9, no. 2 (May 1996).  {{< br >}}  {{< br >}}Ehteshami, B., R. G. Petrakian, and P. M. Shabe. "Trade-Offs in Cycle Time Management: Hot Lots." _IEEE Transactions on Semiconductor Manufacturing_ 5, no. 2 (May 1992).  {{< br >}}  {{< br >}}Glassey, C. R., and M. G. C. Resende. "Closed-Loop Job Release Control for VLSI Circuit Manufacturing." _IEEE Transactions on Semiconductor Manufacturing_ 1, no. 1 (February 1988).  {{< br >}}  {{< br >}}Leachman, R. C. "Closed-Loop Measurement of Equipment Efficiency and Equipment Capacity." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997).  {{< br >}}  {{< br >}}Leachman, R. C., and D. A. Hodges. "Benchmarking Semiconductor Manufacturing." _IEEE Transactions on Semiconductor Manufacturing_ 9, no. 2 (May 1996).  {{< br >}}  {{< br >}}Lu, S. C. H., D. Ramaswamy, and P. R. Kumar. "Efficient Scheduling Policies to Reduce Mean and Variance of Cycle-Time in Semiconductor Manufacturing Plants." _IEEE Transactions Semiconductor Manufacturing_ 7, no. 3 (August 1994).  {{< br >}}  {{< br >}}Miller, D. J. "Simulation of a Semiconductor Manufacturing Line." _Communications of the ACM_ 33, no. 10 (October 1990).  {{< br >}}  {{< br >}}Uzsoy, R., C-Y, Lee, and L. A. Martin-Vega. "A Review of Production Planning and Scheduling Models in the Semiconductor Industry. Part I: System Characteristics, Performance Evaluation and Production Planning." _IIE Transactions_ 24, no. 4 (1992).  {{< br >}}  {{< br >}}———. "A Review of Production Planning and Scheduling Models in the Semiconductor Industry. Part II: Shop-Floor Control." _IIE Transactions_ 26, no. 5 (September 1994).  {{< br >}}  {{< br >}}Wein, L. M. "On the Relationship Between Yield and Cycle Time in Semiconductor Wafer Fabrication." _IEEE Transaction on Semiconductor Manufacturing_ 5, no. 2 (May 1992).  {{< br >}}  {{< br >}}Wood, S. C. "Cost and Cycle Time Performance of Fabs Based on Integrated Single-Wafer Professing." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997). |
-| {{< td-colspan 4 >}}**Factory Operation and Design**{{< /td-colspan >}} ||||
-| 19 | Scheduling | Gershwin, S. "Linear Programming." Chapter 7 in _Manufacturing Systems Engineering_. Upper Saddle River, NJ: Prentice-Hall, 1993. ISBN: 013560608X.  {{< br >}}  {{< br >}}Hung, Y-F. and R. C. Leachman. "A Production Planning Methodology for Semiconductor Manufacturing Based on Iterative Simulation and Linear Programming Calculations." _IEEE Transactions on Semiconductor Manufacturing_ 9, no. 2 (May 1996).  {{< br >}}  {{< br >}}Leachman, R. C., and T. F. Carmon. "On Capacity Modeling for Production Planning with Alternative Machine Types." _IIE Transactions_ 24, no. 4 (September 1994). |
-| &nbsp; | Quiz #2 | &nbsp; |
-| 20 | Planning | Elrod, S. A. and W. Worth. "33. Environment, Safety, and Health." pp. 1027-1045. Unknown.  {{< br >}}  {{< br >}}Leachman, R. C. "Closed-Loop Measurement of Equipment Efficiency and Equipment Capacity." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997).  {{< br >}}  {{< br >}}Leachman, R. C. and D. A. Hodges. "Benchmarking Semiconductor Manufacturing." _IEEE Transactions on Semiconductor Manufacturing_ 9, no. 2 (May 1996).  {{< br >}}  {{< br >}}McGehee, J., J. Hebley, and J. Mahaffey. "The MMST Computer-Integrated Manufacturing System Framework." _IEEE Transactions on Semiconductor Manufacturing_ 7, no. 2 (May 1994).  {{< br >}}  {{< br >}}Wood, S. C. "Cost and Cycle Time Performance of Fabs Based on Integrated Single-Wafer Processing." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997).  {{< br >}}  {{< br >}}**Student Projects**  {{< br >}}  {{< br >}}Cai, H. and X. Xie. "Copper Electrochemical Deposition Topography Regression." 6.780 Semiconductor Manufacturing Term Project, May 12, 2003.  {{< br >}}  {{< br >}}Chandler, T., and S. Hung. "Analysis of Variation Sources in Ring Oscillator Layouts (May 2003)".  {{< br >}}  {{< br >}}Chen, J. "Improvement in Mechanoluminescence intenity of Ca2Al2Si07: Ce by statistical approach".  {{< br >}}  {{< br >}}Lyon, E., and K. Noh. "Statistical Analysis of In-Situ End-point Detection in Copper Chemical-Mechanical Polishing."  {{< br >}}  {{< br >}}Sargeant, R. and E. Smith. "6.780 - Semiconductor Manufacturing Term Project - Data Analysis: Integrated Model-Based Run-to-Run Uniformity Control for Epitaxial Silicon Depostion by A. E. Gower Hall".  {{< br >}}  {{< br >}}Somani, A., L. W. Teo, and D. S. Boning. "Spatial Analysis of Ring Oscillator Devices."  {{< br >}}  {{< br >}}Welton, T. S. "Determining Factors that Significatly Impact Injury Levels in a Production Facility." |
-| 21 | Factory Design and Efficiency |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Overview of Semiconductor Manufacturing
+{{< tdclose >}}
+{{< tdopen >}}
+Boning, Duane S., Jerry Stefani, and Stephanie W. Butler. "Statistical Methods for Semiconductor Manufacturing."  
+  
+May, Gary S., and Costas J. Spanos. "Introduction to Semiconductor Manufacturing copyright 2002." Chapter 1 in _Fundamentals of Semiconductor Manufacturing and Process Control__._ July 2002, pp. 1-22. ISBN: 0471784060.  
+  
+Montgomery, D. C. "Inferences about Process Quality." Chapter 3 in _Introduction to Statistical Quality Control__._ 1st ed. New York, NY: Wiley, 1985. ISBN: 0471808709.  
+  
+Webster, J. G., ed. _Encyclopedia of Electrical Engineering__._ New York, NY: Wiley, 1999. Pp. 463-479. ISBN: 0471139467.  
+  
+Appendix I-VIII. Various Statistical Tables. Unknown.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**Statistical Process Control**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Statistics Review: Distributions
+{{< tdclose >}}
+{{< tdopen >}}
+Moore, Gordon E. "The Experts Look Ahead. Cramming more Components onto Integrated Circuits." _Electronics_ 38, no. 8 (April 19, 1965).  
+  
+Appendix A: Electronic Genie: Patric Haggerty's Forcecast (1964). University of Illinois Press.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Statistics Review: Estimation
+{{< tdclose >}}
+{{< tdopen >}}
+Montgomery. _Introduction to Statistical Quality Control__._ 3rd ed. pp. 113-116. ISBN: 0471303534.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Hypothesis Tests and Control Chart Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+Drain, David. "Variance Components and Process Sampling Design." Chapter 3 in _Statistical Methods for Industrial Process Control._ New York, NY: Chapman and Hall. ISBN: 0412085119.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Control Charts
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Advanced Control Charts, Nested Variance
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**Experimental Design**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Analysis and Design of Experiments
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+ANOVA, Variance Component Estimation
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+MANOVA, Factorial Experiments
+{{< tdclose >}}
+{{< tdopen >}}
+Clark, Thomas E., M. Chang, and Cissy Leung. "Response Surface Modeling of High Pressure Chemical Vapor Deposited Blanket Tungsten." _J Vac Sci Technol_ B 9, no. 3 (May/June 1991). Copyright 1991 American Vacuum Society.  
+  
+May, Gary S., and Costas J. Spanos. "Yield Modeling." Chapter 5 in _Fundamentals of Semiconductor Manufacturing and Process Control_. January 2002. ISBN: 0471784060.  
+  
+———. "Statistical Experimental Design." Chapter 7 in _Fundamentals of Semiconductor Manufacturing and Process Control_. May 2002. ISBN: 0471784060.  
+  
+Notes from C. Spanos, U. C. Berkeley. "Yield".
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz #1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**Yield and Yield Learning**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Design of Experiments and Response Surface Modeling
+{{< tdclose >}}
+{{< tdopen >}}
+Ciplickas, D. J., X. Li, and A. J. Strojwas. "Predictive Yield Modeling of VLSIC's." 5th International Workshop on Statistical Metrology (IWSM). IEEE (June 2000): 28-37. Honolulu, HA.  
+  
+Hess, Christopher. "Universal Characterization Vehicle (UCV) and Fast Testing Methods." Presentation. PDF Solutions Inc.  
+  
+Stapper, Charles H., and Raymond J. Rosner. "Integrated Circuit Yield Management and Yield Analysis: Development and Implementation." _IEEE Transactions on Semiconductor Manufacturing_ 8, no. 2 (May 1995).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+RSM and Regression
+{{< tdclose >}}
+{{< tdopen >}}
+Davis, J. C., R. S. Gyurcsik, J-C Lu, and J. M. Hughes-Oliver. "A Robust Metric for Measuring Within-Wafer Uniformity." _IEEE Transations on Components, Packaging, and Manufacturing Technology - Part C_ 19, no. 4 (Oct 1996).  
+  
+Guo, R-S., and E. Sachs. "Modeling, Optimization and Control of Spatial Uniformity in Manufacturing Processes." _IEEE Transactions on Semiconductor Manufacturing_, 6, no. 1 (February 1993).  
+  
+May, Gary S., and Costas J. Spanos. "Statistical Process Control." Chapter 6 in _Fundamentals of Semiconductor Manufacturing and Process Control__._ December 2001. ISBN: 0471784060.  
+  
+Mozumder, P. K., and L. M. Loewenstein. "Method for Semiconductor Process Optimization Using Functional Representations of Spatial Variations and Selectivity." _IEEE Transactions on Components, Hybrids, and Manufacturing Technology,_ 15, no. 3 (June 1992).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Yield Management and Modeling
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Yield Modeling
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**Advanced Process Control**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Spatial Modeling
+{{< tdclose >}}
+{{< tdopen >}}
+Spanos, C. J., Guo H-F, A. Miller, and J. Levine-Parrill. "Real-Time Statistical Process Control Using Tool Data." _IEEE Transactions on Semiconductor Manufacturing_ 5, no. 4 (November 1992).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Sensors and Signals
+{{< tdclose >}}
+{{< tdopen >}}
+Sachs, E., A. Hu, and A. Ingolfsson. "Run by Run Process Control: Combining SPC and Feedback Control." _IEEE Transactions on Semiconductor Manufacturing_ 8, no. 1 (February 1995).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+PCA and Time Series
+{{< tdclose >}}
+{{< tdopen >}}
+SCRAP? Schaper, C., M. Moslehi, K. Saraswat, and T. Kailath. "Control of MMST RTP: Repeatability, Uniformity, and Integration for Flexible Manufacturing." _IEEE Transactions on Semiconductor Manufacturing_ 7, no. 2 (May 1994).  
+  
+SCRAP? Knight, T. J., D. W. Greve, X. Cheng, and B. H. Krogh. "Real-Time Multivariable Control of PECVD Silicon Nitride Film Properties." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Run by Run Control
+{{< tdclose >}}
+{{< tdopen >}}
+Gershwin, S. B. "Markoc Chains and Processes." Chapter 2 in _Manufacturing Systems Engineering_. Upper Saddle River, NJ: Prentice-Hall, 1993. ISBN: 013560608X.  
+  
+Wein, L. M. "Scheduling Semiconductor Wafer Fabrication." _IEEE Transactions on Semiconductor Manufacturing_ 1, no. 3 (August 1988).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Real Time Control, Scheduling
+{{< tdclose >}}
+{{< tdopen >}}
+Cunningham, S. P., and J. G. Shanthikumar. "Empirical Results on the Relationship Between Die Yield and Cycle Time in Semiconductor Wafer Fabrication." _IEEE Transactions on Semiconductor Manufacturing_ 9, no. 2 (May 1996).  
+  
+Ehteshami, B., R. G. Petrakian, and P. M. Shabe. "Trade-Offs in Cycle Time Management: Hot Lots." _IEEE Transactions on Semiconductor Manufacturing_ 5, no. 2 (May 1992).  
+  
+Glassey, C. R., and M. G. C. Resende. "Closed-Loop Job Release Control for VLSI Circuit Manufacturing." _IEEE Transactions on Semiconductor Manufacturing_ 1, no. 1 (February 1988).  
+  
+Leachman, R. C. "Closed-Loop Measurement of Equipment Efficiency and Equipment Capacity." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997).  
+  
+Leachman, R. C., and D. A. Hodges. "Benchmarking Semiconductor Manufacturing." _IEEE Transactions on Semiconductor Manufacturing_ 9, no. 2 (May 1996).  
+  
+Lu, S. C. H., D. Ramaswamy, and P. R. Kumar. "Efficient Scheduling Policies to Reduce Mean and Variance of Cycle-Time in Semiconductor Manufacturing Plants." _IEEE Transactions Semiconductor Manufacturing_ 7, no. 3 (August 1994).  
+  
+Miller, D. J. "Simulation of a Semiconductor Manufacturing Line." _Communications of the ACM_ 33, no. 10 (October 1990).  
+  
+Uzsoy, R., C-Y, Lee, and L. A. Martin-Vega. "A Review of Production Planning and Scheduling Models in the Semiconductor Industry. Part I: System Characteristics, Performance Evaluation and Production Planning." _IIE Transactions_ 24, no. 4 (1992).  
+  
+———. "A Review of Production Planning and Scheduling Models in the Semiconductor Industry. Part II: Shop-Floor Control." _IIE Transactions_ 26, no. 5 (September 1994).  
+  
+Wein, L. M. "On the Relationship Between Yield and Cycle Time in Semiconductor Wafer Fabrication." _IEEE Transaction on Semiconductor Manufacturing_ 5, no. 2 (May 1992).  
+  
+Wood, S. C. "Cost and Cycle Time Performance of Fabs Based on Integrated Single-Wafer Professing." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**Factory Operation and Design**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Scheduling
+{{< tdclose >}}
+{{< tdopen >}}
+Gershwin, S. "Linear Programming." Chapter 7 in _Manufacturing Systems Engineering_. Upper Saddle River, NJ: Prentice-Hall, 1993. ISBN: 013560608X.  
+  
+Hung, Y-F. and R. C. Leachman. "A Production Planning Methodology for Semiconductor Manufacturing Based on Iterative Simulation and Linear Programming Calculations." _IEEE Transactions on Semiconductor Manufacturing_ 9, no. 2 (May 1996).  
+  
+Leachman, R. C., and T. F. Carmon. "On Capacity Modeling for Production Planning with Alternative Machine Types." _IIE Transactions_ 24, no. 4 (September 1994).
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz #2
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Planning
+{{< tdclose >}}
+{{< tdopen >}}
+Elrod, S. A. and W. Worth. "33. Environment, Safety, and Health." pp. 1027-1045. Unknown.  
+  
+Leachman, R. C. "Closed-Loop Measurement of Equipment Efficiency and Equipment Capacity." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997).  
+  
+Leachman, R. C. and D. A. Hodges. "Benchmarking Semiconductor Manufacturing." _IEEE Transactions on Semiconductor Manufacturing_ 9, no. 2 (May 1996).  
+  
+McGehee, J., J. Hebley, and J. Mahaffey. "The MMST Computer-Integrated Manufacturing System Framework." _IEEE Transactions on Semiconductor Manufacturing_ 7, no. 2 (May 1994).  
+  
+Wood, S. C. "Cost and Cycle Time Performance of Fabs Based on Integrated Single-Wafer Processing." _IEEE Transactions on Semiconductor Manufacturing_ 10, no. 1 (February 1997).  
+  
+**Student Projects**  
+  
+Cai, H. and X. Xie. "Copper Electrochemical Deposition Topography Regression." 6.780 Semiconductor Manufacturing Term Project, May 12, 2003.  
+  
+Chandler, T., and S. Hung. "Analysis of Variation Sources in Ring Oscillator Layouts (May 2003)".  
+  
+Chen, J. "Improvement in Mechanoluminescence intenity of Ca2Al2Si07: Ce by statistical approach".  
+  
+Lyon, E., and K. Noh. "Statistical Analysis of In-Situ End-point Detection in Copper Chemical-Mechanical Polishing."  
+  
+Sargeant, R. and E. Smith. "6.780 - Semiconductor Manufacturing Term Project - Data Analysis: Integrated Model-Based Run-to-Run Uniformity Control for Epitaxial Silicon Depostion by A. E. Gower Hall".  
+  
+Somani, A., L. W. Teo, and D. S. Boning. "Spatial Analysis of Ring Oscillator Devices."  
+  
+Welton, T. S. "Determining Factors that Significatly Impact Injury Levels in a Production Facility."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Factory Design and Efficiency
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 {{< anchor "add" >}}References and Resources{{< /anchor >}}
 -----------------------------------------------------------

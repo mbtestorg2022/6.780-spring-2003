@@ -41,10 +41,86 @@ Term Project Reports
 
 The following are term project reports and presentations for the course 6.780, Semiconductor Manufacturing, presented in the Spring Term 2003.
 
-| PROJECTS | REPORTS | PRESENTATIONS |
-| --- | --- | --- |
-| _Analysis of Variation Sources in Ring Oscillator Layouts  {{< br >}}_Thomas Chandler and Shion Hung | ([PDF]({{< baseurl >}}/resources/hung_chan_rep)) Courtesy of Thomas Chandler and Shion Hung. | ([PDF]({{< baseurl >}}/resources/hung_chan_talk)) Courtesy of Thomas Chandler and Shion Hung. |
-| _Statistical Analysis of In-Situ End-Point Detection in Copper Chemical-Mechanical Polishing  {{< br >}}_Elizabeth Lyons and Kyung-yoon Noh | ([PDF]({{< baseurl >}}/resources/lyons_noh_rep)) Courtesy of Elizabeth Lyons and Kyung-yoon Noh. | ([PDF]({{< baseurl >}}/resources/lyons_noh_talk)) Courtesy of Elizabeth Lyons and Kyung-yoon Noh. |
-| _Epitaxial Silicon Deposition Data Analysis  {{< br >}}_Roland Sargeant and Erik Smith | ([PDF]({{< baseurl >}}/resources/smith_sarg_rep)) Courtesy of Roland Sargeant and Erik Smith. | &nbsp; |
-| _Spatial Analysis of Ring Oscillator Devices  {{< br >}}_Ajay Somani and Lee Wee Teo | ([PDF]({{< baseurl >}}/resources/somani_teo_rep)) Courtesy of Ajay Somani and Lee Wee Teo. | ([PDF]({{< baseurl >}}/resources/somani_teo_talk)) Courtesy of Ajay Somani and Lee Wee Teo. |
-| _Determining Factors that Significantly Impact Injury Levels in a Production Facility_  {{< br >}}Tee Welton | ([PDF]({{< baseurl >}}/resources/welton_rep)) Courtesy of Tee Welton. | ([PDF]({{< baseurl >}}/resources/welton_talk)) Courtesy of Tee Welton.
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+PROJECTS
+{{< thclose >}}
+{{< thopen >}}
+REPORTS
+{{< thclose >}}
+{{< thopen >}}
+PRESENTATIONS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_Analysis of Variation Sources in Ring Oscillator Layouts  
+_Thomas Chandler and Shion Hung
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/hung_chan_rep)) Courtesy of Thomas Chandler and Shion Hung.
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/hung_chan_talk)) Courtesy of Thomas Chandler and Shion Hung.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_Statistical Analysis of In-Situ End-Point Detection in Copper Chemical-Mechanical Polishing  
+_Elizabeth Lyons and Kyung-yoon Noh
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lyons_noh_rep)) Courtesy of Elizabeth Lyons and Kyung-yoon Noh.
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lyons_noh_talk)) Courtesy of Elizabeth Lyons and Kyung-yoon Noh.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_Epitaxial Silicon Deposition Data Analysis  
+_Roland Sargeant and Erik Smith
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/smith_sarg_rep)) Courtesy of Roland Sargeant and Erik Smith.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_Spatial Analysis of Ring Oscillator Devices  
+_Ajay Somani and Lee Wee Teo
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/somani_teo_rep)) Courtesy of Ajay Somani and Lee Wee Teo.
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/somani_teo_talk)) Courtesy of Ajay Somani and Lee Wee Teo.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+_Determining Factors that Significantly Impact Injury Levels in a Production Facility_  
+Tee Welton
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/welton_rep)) Courtesy of Tee Welton.
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/welton_talk)) Courtesy of Tee Welton.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
