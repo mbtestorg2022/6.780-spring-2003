@@ -3,6 +3,7 @@ content_type: resource
 description: ''
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-780-semiconductor-manufacturing-spring-2003/07db8b67e3acda2b972ffcbc8cd5dca5_crit_review.pdf
 file_type: application/pdf
+parent_uid: 72416ae2-e41b-78ff-fda5-0b5a3f9c0fa2
 resourcetype: Document
 title: crit_review.pdf
 uid: 07db8b67-e3ac-da2b-972f-fcbc8cd5dca5
